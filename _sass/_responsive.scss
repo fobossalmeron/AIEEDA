@@ -1,0 +1,276 @@
+/**
+Full Down
+**/
+@include media-query($full-down) {
+
+	.sponsor li {
+	    padding: 0 8%;
+	}
+	.sponfoot ul{
+	    width: 600px;
+	}
+
+}
+/**
+Sidebar
+**/
+@include media-query($sidebar-down) {
+	main{
+	 width: 100%;
+	 clear: both;
+	}
+	aside{
+		width:100%;
+		clear: both;
+	}
+
+	.mobile_hide{
+		display:none;
+		visibility:hidden;
+	}
+
+	.mobile_visible{
+	    display: block;
+	    visibility: visible;
+	}
+
+	.sidebar_visible{
+	    display: none;
+	    visibility: hidden;
+	}
+
+	.mini_add_space{
+		margin-top: 5%;
+	}
+
+	.destination_content{
+		width:100%;
+	}
+	.destination_options{
+		width:100%;
+	}
+
+	.challenge_mini{
+		width: 23.5%;
+		margin-right: 2%;
+		&:nth-child(2n+2){
+			margin-right: 2%;
+		}
+		&:nth-child(4n+4){
+			margin-right: 0px;
+		}
+	}
+  .hiddenli{
+			width: 48%;
+			&:nth-child(3n+0){
+				margin-right: 2%;
+			}
+			&:nth-child(2n+0){
+				margin-right: 0%;
+			}
+	}
+	.deals_list li:nth-child(3n+0) {
+    margin-right: 4%;
+	}
+	.dealbrand{
+		clear:both;
+	}
+	.retos li{
+		width: 47.5%;
+		&:nth-child(3n+0) {
+    		margin-right: 5%;
+		}
+		&:nth-child(2n+0) {
+    		margin-right: 0%;
+		}
+	}
+
+	.locaciones li{
+		width:100%;
+	}
+	.social-media-list a{
+		 width: 22%;
+		 &:nth-child(even){
+            margin-right: 4%;
+        }
+        &:nth-last-child(1){
+        	margin-right: 0px;
+        }
+	}
+	.unit{
+		width: 38.571%;
+		height:100px;
+		margin: 1% 0;
+	}
+	.halfunit{
+		width: 22.8%;
+		height:100px;
+		margin: 1% 0;
+	}
+	.expandunit{
+		width: 22.8%;
+	}
+	#homevideo{
+		width:100%;
+		padding-bottom: 56.25%;
+	}
+	.spaces{
+		margin-left: 0px;
+	}
+	#image1::before, #image3::before, #image4::before, #image5::before{
+		font-size: 19.5px;
+		@include translateX(0%);
+	}
+	.social-home-block{
+		width:100%;
+	}
+	header .logo{
+		width:70%;
+	}
+	.stickyheader .logo{
+		width:55%;
+	}
+}
+
+/**
+Tablet Down
+**/
+@include media-query($tablet-down) {
+
+	.hiddenli:hover {
+		overflow:hidden;
+	}
+	.retos li:hover{
+		opacity: 1;
+ 		overflow: hidden;
+		@include border-radius(5px);
+		.reto_image{
+			opacity: 1;
+		}
+		.reto_icon{
+			opacity:0;
+		}
+	}
+	.sponsor li {
+	    padding: 0 6%;
+	    width: 33.3%;
+	}
+	.sponfoot ul{
+	    width: 470px;
+	}
+
+	h2{
+		font-size: 15px;
+    	letter-spacing: 2px;
+	}
+
+	.descarga_boton{
+	    p{
+	        font-size: .8em;
+	    }
+	}
+}
+
+
+/**
+Smartphone Down
+**/
+@include media-query($mobile-down) {
+
+	header{
+		padding: 1% 0;
+		margin-top: 60px;
+   		min-height: 110px;
+	}
+	.sponsor li {
+	    padding: 0 10%;
+	    width: 50%;
+
+	}
+	.sponfoot ul{
+	    width: 350px;
+	}
+
+	.deal {
+	    width: 100%;
+	    margin-right: 0px;
+	}
+
+	.hiddenli{
+			width: 100%;
+	}
+
+	.retos li{
+		width:100%;
+		margin-right: 0px;
+		&:nth-child(3n+2){
+			margin-right: 0px;
+		}
+	}
+
+	.challenge_list li{
+		width:100%;
+	}
+	.panel{
+		width:100%;
+	}
+	.sponsorlist li{
+		width: 100%;
+		margin-bottom: 5%;
+	}
+	.social-media-list a{
+		 width: 48%;
+		 &:nth-child(even){
+            margin-right: 0px;
+        }
+        &:nth-last-child(1){
+        	margin-right: 0px;
+        }
+	}
+	.stickyheader .logo{
+		width:80%;
+	}
+	.page-content {
+    padding: 10% 0;
+	}
+	form {
+		input, textarea{
+			clear:both;
+			width:100%;
+		}
+		text-align: left;
+		.form_email {
+	    margin-left: 0px;
+	    clear: both;
+	    text-align: left;
+		}
+		.form_message{
+			clear:both;
+		}
+		.sendbutton{
+			float:left;
+			clear:none;
+			width: 65%;
+			margin-top: 42px;
+		}
+		.form_img{
+			margin-left: 1%;
+			margin-top: 19px;
+		}
+	}
+	.descarga_material{
+		padding:0 20%;
+	}
+	.descarga_boton p {
+    font-size: 1em;
+	}
+}
+/**
+Too Small
+**/
+@include media-query($too-small) {
+	.sponfoot ul{
+	    width: 100%;
+	}
+
+}

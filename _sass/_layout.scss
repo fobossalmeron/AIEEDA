@@ -1,0 +1,67 @@
+section{
+  width:100%;
+  float:left;
+  clear:both;
+  box-sizing: border-box;
+  padding:5% 0;
+}
+
+#landing{
+.overvideo{
+  background-color:rgba(0,0,0,0.5);
+  color:white;
+  text-align: center;
+  width:100%;
+  float: left;
+  clear: both;
+  padding: 5%;
+  
+  .designsuccesslogo{
+    height: 1.1em;
+    clear: none;
+    left: 0;
+    transform: none;
+    margin-top: 5px;
+    padding:0;
+  }
+  .limiter{
+    max-width: 800px;
+    left:50%;
+    transform: translateX(-50%);
+    position: relative;
+  }
+  h2{
+    font-size: 2.5em;
+  }
+  p{
+    font-size: 1em;
+    float: left;
+    padding-right: 10px;
+  }
+}
+  .designsuccesslogo{
+    max-width:500px;
+    position:relative;
+    float:left;
+    clear:both;
+    left:50%;
+    transform: translateX(-50%);
+  }
+  .aieedalogo{
+    max-width:700px;
+    position:relative;
+        padding: 10% 0;
+    float:left;
+    clear:both;
+    left:50%;
+    transform: translateX(-50%);
+  }
+}
+
+video{
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: absolute;
+      z-index: -1;
+}

@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
-
-<section id="landing">
-  <video poster="{{ site.baseurl }}img/poster.png" id="bgvid" playsinline autoplay muted loop>
+<div class="fullscreen_bg">
+  <video class="fullscreen_bg_video" poster="{{ site.baseurl }}img/poster.png" id="bgvid" playsinline autoplay muted loop>
   <source src="{{ site.baseurl }}video/bg.mp4" type="video/mp4">
   </video>
+</div>
+<section id="landing">
   <img class="designsuccesslogo" src="{{ site.baseurl }}img/designsuccesslogo.svg">
   <img class="aieedalogo" src="{{ site.baseurl }}img/aieedalogo.svg">
   <div class="overvideo">
@@ -16,7 +17,7 @@ layout: default
   </div>
 </section>
 <section id="blacksection">
-  <img src="{{ site.baseurl }}img/aieedacolorlogo.svg">
+  <img class="colorlogo" src="{{ site.baseurl }}img/aieedacolorlogo.svg">
   <h2><b>aieeda</b>* is alive. <br>Engage deeper, faster, bigger and better than ever before</h2>
     <p>*<b>aieeda</b>: Artificial Intelligence Engagement Eco-System with Data Analytics</p>
   <div class="overvideo">

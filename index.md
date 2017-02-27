@@ -31,8 +31,8 @@ layout: default
     </ul>
     <span></span>
     <h2>Want to meet <b>aieeda</b> and see what she can do for your company or industry?</h2>
-    <p>Email her at <a href="mailto:aieeda@aieeda.co" target="_blank"><b>aieeda@aieeda.co</b></a> and let her show you tomorrows innovative engagement today</p>
-    <a href="mailto:aieeda@aieeda.co" target="_blank"><img class="mailicon" src="{{ site.baseurl }}img/mail_icon.svg"></a>
+    <p>Email her at <a href="mailto:aieeda@aieeda.co"><b>aieeda@aieeda.co</b></a> and let her show you tomorrows innovative engagement today</p>
+    <a href="mailto:aieeda@aieeda.co"><img class="mailicon" src="{{ site.baseurl }}img/mail_icon.svg"></a>
   </div>
 </section>
 <section id="trustedby">

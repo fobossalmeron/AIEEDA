@@ -12,7 +12,7 @@ layout: default
   <div class="overvideo">
     <div class="limiter">
       <h2>Pioneering artificial intelligence and engagement platforms across industries</h2>
-      <p>Created by the global innovation and solutions company</p><img class="designsuccesslogo" src="{{ site.baseurl }}img/designsuccesslogo.svg">
+      <p>Created by the global innovation and solutions company <b>design:success</b></p>
     </div>
   </div>
 </section>
@@ -23,16 +23,16 @@ layout: default
   <div class="overvideo">
     <p><b>aieeda</b> is</p>
     <ul>
-<li>the world first cross channel engagement platform utilizing artificial intelligence</li>
-<li>customizable for multiple industries incl. financial services, pharma, FMCG etc.</li>
-<li>in active implementation with multiple Fortune500 companies </li>
-<li>patent pending</li>
-<li>created by global innovation and solutions company <b>design:success</b></li>
+  <li>the world first cross channel engagement platform utilizing artificial intelligence</li>
+  <li>customizable for multiple industries incl. financial services, pharma, FMCG etc.</li>
+  <li>in active implementation with multiple Fortune500 companies </li>
+  <li>patent pending</li>
+  <li>created by global innovation and solutions company <b>design:success</b></li>
     </ul>
     <span></span>
     <h2>Want to meet <b>aieeda</b> and see what she can do for your company or industry?</h2>
-    <p>Email her at <a href="mailto:aieeda@aieeda.co">aieeda@aieeda.co</a> and let her show you tomorrows innovative engagement today</p>
-    <a href="mailto:aieeda@aieeda.co"><img class="mailicon" src="{{ site.baseurl }}img/mail_icon.svg"></a>
+    <p>Email her at <a href="mailto:aieeda@aieeda.co" target="_blank"><b>aieeda@aieeda.co</b></a> and let her show you tomorrows innovative engagement today</p>
+    <a href="mailto:aieeda@aieeda.co" target="_blank"><img class="mailicon" src="{{ site.baseurl }}img/mail_icon.svg"></a>
   </div>
 </section>
 <section id="trustedby">

@@ -5,6 +5,13 @@ section{
   box-sizing: border-box;
 }
 
+h2{
+  font-size: 1.7em;
+}
+p{
+  font-size: 1em;
+}
+
 #landing{
 .overvideo{
   background-color:rgba(0,0,0,0.5);
@@ -20,26 +27,24 @@ section{
     clear: none;
     left: 0;
     transform: none;
-    margin-top: 5px;
+    margin-top: 6px;
     padding:0;
   }
   .limiter{
-    max-width: 800px;
+    max-width: 780px;
     left:50%;
     transform: translateX(-50%);
     position: relative;
   }
-  h2{
-    font-size: 1.7em;
-  }
   p{
-    font-size: 1em;
     float: left;
-    padding-right: 10px;
+    padding-right: 7px;
+    clear:both;
   }
 }
   .designsuccesslogo{
     max-width: 400px;
+        width: 50%;
     position: relative;
     float: left;
     clear: both;
@@ -50,9 +55,9 @@ section{
   }
   .aieedalogo{
     max-width:700px;
-        width: 50%;
+    width: 80%;
     position:relative;
-        padding: 10% 0;
+    padding: 10% 0;
     float:left;
     clear:both;
     left:50%;
@@ -71,11 +76,12 @@ video{
 }
 */
 .colorlogo{
-  width: 105px;
+  width: 60px;
       clear: both;
-      padding-left: 4%;
+      margin-left: 4%;
       padding-bottom: 3%;
       float: left;
+      position: relative;
       margin-right: 45%;
       box-sizing: border-box;
 }
@@ -90,30 +96,38 @@ video{
   color:$white;
   h2{
     color:$lightblue;
-    padding: 5% 4% 0% 4%;
-    font-size:1.7em;
-    max-width: 770px;
+    padding-left: 4%;
+    max-width: 600px;
+    float: left;
+    clear: both;
   }
   p{
-    padding-left:4%;
-    padding-bottom:4%;
+    padding: 0 0 4% 4%;
+    float:left;
+    clear:both;
   }
   .overvideo{
+    float:left;
     background-color: rgba(0,114,180,0.9);
     padding: 4%;
+    width: 100%;
     h2{
       color:white;
       max-width: 900px;
       padding-left:0;
+      float:left;
     }
     p{
       padding-left:0;
       padding-bottom:0;
+      float:left;
+    }
+    ul{
+      float:left;
+      clear:both;
     }
   }
 }
-
-
 
 .fullscreen_bg {
   position: fixed;
@@ -161,7 +175,7 @@ video{
   background-color:black;
   color:white;
   text-align: center;
-  padding: 5%;
+    padding: 5% 5% 0 5%;
 }
 
 footer{
@@ -205,7 +219,7 @@ footer{
 
 .sponsors{
   max-width:900px;
-  width:70%;
+  width:100%;
   position: relative;
   left:50%;
   float:left;
@@ -223,9 +237,11 @@ span{
 }
 
 .mailicon{
-  width:150px;
-  cursor:pointer;
-  padding: 2% 3% 0% 0%;
+  width: 100px;
+  cursor: pointer;
+  margin-top: 2%;
   box-sizing: border-box;
   position: relative;
+  float: left;
+  clear: both;
 }

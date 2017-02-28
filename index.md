@@ -18,7 +18,7 @@ layout: default
 </section>
 <section id="blacksection">
   <img class="colorlogo" src="{{ site.baseurl }}img/aieedacolorlogo.svg">
-  <h2><b>aieeda</b>* is alive. <br>Engage deeper, faster, bigger and better than ever before</h2>
+  <h2><b>aieeda</b>* is alive. <br>Engage deeper, faster, bigger and better than ever before</h2>
     <p>*<b>aieeda</b>: Artificial Intelligence Engagement Eco-System with Data Analytics</p>
   <div class="overvideo">
     <p><b>aieeda</b> is</p>

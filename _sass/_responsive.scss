@@ -8,11 +8,13 @@ Full Down
 Sidebar
 **/
 @include media-query($sidebar-down) {
-
+	#landing .aieedalogo{
+		padding: 20% 0;
+	}
 	h2{
     font-size: 1.3em;
   }
-	p{
+	p, ul{
 	  font-size: 0.8em;
 	}
 	footer ul {

@@ -52,6 +52,7 @@ p{
     padding-top: 3%;
     box-sizing: border-box;
     transform: translateX(-50%);
+      -webkit-filter: drop-shadow(-1px 6px 9px rgba(0, 0, 0, 0.35));
   }
   .aieedalogo{
     max-width:700px;
@@ -62,6 +63,7 @@ p{
     clear:both;
     left:50%;
     transform: translateX(-50%);
+      -webkit-filter: drop-shadow(-1px 6px 9px rgba(0, 0, 0, 0.35));
   }
 }
 /*

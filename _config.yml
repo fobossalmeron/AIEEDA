@@ -16,11 +16,11 @@
 title: AIEEDA
 email: aieeda@aieeda.co
 description: Pioneering artificial intelligence and engagement platforms across industries
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "aieeda.co" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-og_image: http:// #path to real image
+og_image: img/og_image.jpg #path to real image
 analytics_code:
 
 # Build settings
